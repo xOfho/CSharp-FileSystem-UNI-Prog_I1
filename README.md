@@ -1,4 +1,4 @@
-# CSharp-FileSystem-UNI-Prog_I1
+# CSharp-FileSystem-UNI-Prog_I #1
 Aplicación en C# (Windows Forms) que utiliza una arquitectura basada en interfaces para explorar directorios, verificar la existencia de archivos y leer su contenido de forma dinámica.
 
 # FileTest - Explorador de Archivos y Directorios en C#
@@ -22,8 +22,22 @@ Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows 
 2.  [cite_start]**FileSystemRepository.cs**: Implementación concreta de la interfaz que gestiona la lógica del sistema de archivos. [cite: 32]
 3.  [cite_start]**Form1.cs**: Maneja la interacción del usuario, capturando eventos de teclado (`KeyDown`) para procesar las rutas ingresadas. [cite: 75, 81]
 
-## Captura de Pantalla
-> *Aquí puedes insertar una de las imágenes de tu práctica para mostrar el programa funcionando.*
+## Pasos con Capturas de Pantallas
+> **
+
+1. Abrir Visual Studio 2022. 
+2. Crear nuevo proyecto Windows Forms App (.NET). 
+2. Asegúrese de que el Framework seleccionado sea .NET 6.0 o superior. 
+![Inicio](screenshots/Inicio.png)
+4.En la solución, agregue una nueva interfaz llamada IFileSystemRepository.cs 
+5.Cree una nueva clase llamada FileSystemRepository.cs. 
+6. Crear la interfaz (Formulario)
+![Interfaz](screenshots/intefaz.png)
+7. Luego en el Formulario se agrega un Label que es para mostrar texto informativo, Nos vamos a sus propiedades y en la parte de Apariencia, Buscamos donde dice text y cambiamos el nombre (ya sea uno que le quiera poner el Usuario) 
+8. Y también 2 TextBox, 1 TextBox (para escribir la ruta), 1 TextBox grande (para mostrar resultados). 
+9. Luego hacemos click a un TextBox y Buscamos en propiedades, en la parte del diseño, donde dice (name).
+![Interfaz](screenshots/cambiodenombre.png)
+> 
 
 ## Cómo ejecutarlo
 1. [cite_start]Abrir la solución con **Visual Studio 2022**. [cite: 2]
