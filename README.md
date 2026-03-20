@@ -13,19 +13,19 @@ Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows 
 
 ## Tecnologías Utilizadas
 * **Lenguaje:** C#
-* [cite_start]**Framework:** .NET 6.0 o superior [cite: 4]
-* [cite_start]**Interfaz de Usuario:** Windows Forms (WinForms) [cite: 3]
-* [cite_start]**Espacios de nombres:** `System.IO` para la manipulación de archivos. [cite: 29]
+* **Framework:** .NET 6.0 o superior. 
+* **Interfaz de Usuario:** Windows Forms (WinForms). 
+* **Espacios de nombres:** `System.IO` para la manipulación de archivos. 
 
 ## Estructura del Código
-1.  [cite_start]**IFileSystemRepository.cs**: Define el contrato para las operaciones de archivos (GetDirectories, FileExists, ReadFile, etc.). [cite: 18, 20-23]
-2.  [cite_start]**FileSystemRepository.cs**: Implementación concreta de la interfaz que gestiona la lógica del sistema de archivos. [cite: 32]
-3.  [cite_start]**Form1.cs**: Maneja la interacción del usuario, capturando eventos de teclado (`KeyDown`) para procesar las rutas ingresadas. [cite: 75, 81]
+1.  **IFileSystemRepository.cs**: Define el contrato para las operaciones de archivos (GetDirectories, FileExists, ReadFile, etc.). 
+2.  **FileSystemRepository.cs**: Implementación concreta de la interfaz que gestiona la lógica del sistema de archivos.
+3.  **Form1.cs**: Maneja la interacción del usuario, capturando eventos de teclado (`KeyDown`) para procesar las rutas ingresadas. 
 
 ## Pasos con Capturas de Pantallas
 > *Pasos a seguir:*
 
-1. Abrir Visual Studio 2022. 
+1. Abrir Visual Studio. 
 2. Crear nuevo proyecto Windows Forms App (.NET). 
 2. Asegúrese de que el Framework seleccionado sea .NET 6.0 o superior. 
 
@@ -195,19 +195,11 @@ Y mostrara los directores:
 
 20. En caso de que no exista tal Ruta mandara un Mensaje que dirá que la Ruta no existe.
 
- ![noexiste](screenshots/noexiste.png)
-
- 
-
- 
-
- 
-
- 
+ ![noexiste](screenshots/noexiste.png) 
 
 >  
 
 ## Cómo ejecutarlo
-1. [cite_start]Abrir la solución con **Visual Studio 2022**. [cite: 2]
-2. [cite_start]Asegurarse de tener instalado el SDK de .NET 6.0+. [cite: 4]
-3. [cite_start]Presionar `CTRL + F5` para compilar y ejecutar. [cite: 124]
+1. Abrir la solución con **Visual Studio**.
+2. Asegurarse de tener instalado el SDK de .NET 6.0+.
+3. Presionar `CTRL + F5` para compilar y ejecutar.
