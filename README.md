@@ -16,6 +16,15 @@ Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows 
 * **Interfaz de Usuario:** Windows Forms (WinForms). 
 * **Espacios de nombres:** `System.IO` para la manipulación de archivos. 
 
+##  Documentación del Proyecto
+Para conocer a detalle la lógica detrás de nuestro sistema de archivos, puedes descargar la guía oficial:
+
+<p align="left">
+  <a href="https://github.com/xOfho/CSharp-FileSystem-UNI-Prog_I1/raw/main/docs/Guia_Practica_Prog_II.pdf">
+    <img src="https://img.shields.io/badge/Descargar%20Guía%20PDF-32CD32?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download PDF" />
+  </a>
+</p>
+
 ## Estructura del Código
 1.  **IFileSystemRepository.cs**: Define el contrato para las operaciones de archivos (GetDirectories, FileExists, ReadFile, etc.). 
 2.  **FileSystemRepository.cs**: Implementación concreta de la interfaz que gestiona la lógica del sistema de archivos.
