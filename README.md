@@ -42,6 +42,30 @@ Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows 
 9. Luego hacemos click a un TextBox y Buscamos en propiedades, en la parte del diseño, donde dice (name).
 
 ![Cambio de nombre](screenshots/cambiodenombre.png)
+
+10. En los dos TextBox le cambiamos el nombre, En el 1 TextBox (para escribir la ruta), le cambiamos el nombre y le ponemos (inputTextBox), Y en el 1 TextBox grande (para mostrar resultados), Le cambiamos el nombre y le ponemos (outputTextBox). 
+11. Importante en las propiedades del 1 TextBox grande (para mostrar resultados nos vamos al apartado de, Multilínea Y la cambiamos en (TRUE), igual al apartado de ScrollBars la cambiamos a (Vertical).
+12. Luego Creamos la interfaz (Interface o código). En el Explorador de soluciones le damos click derecho al proyecto (FileTest), Luego nos vamos donde dice Agregar, y buscamos clase.
+
+![Agregar Clase](screenshots/agregarclase.png)
+
+13. A esa clase le ponemos el nombre
+
+### 🛠️ Implementación de la Lógica
+
+```csharp
+namespace FileTest 
+
+{ 
+    public interface IFileSystemRepository 
+    { 
+        string [] GetDirectories (); 
+        bool FileExists (); 
+        string ReadFile (); 
+        string GetFileInformation (); 
+    } 
+} 
+
 > 
 
 ## Cómo ejecutarlo
