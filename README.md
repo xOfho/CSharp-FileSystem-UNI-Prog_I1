@@ -98,7 +98,7 @@ namespace FileTest
         { 
             if (File.Exists(_path) || Directory. Exists(_path)) 
             { 
-string info = $"{_path} existe\n"; 
+                string info = $"{_path} existe\n"; 
                 info += $"Creación: {File.GetCreationTime(_path)}\n"; 
                 info += $"Última modificación: {File.GetLastWriteTime(_path)} \n"; 
                 info += $"Último acceso: {File.GetLastAccessTime(_path)} \n"; 
@@ -161,7 +161,7 @@ if (e. Keycode == Keys. Enter)
         } 
         else 
         { 
-    string [] directoryList = repository. GetDirectories (); 
+            string [] directoryList = repository. GetDirectories (); 
             outputTextBox.AppendText("Contenido del directorio:\n"); 
             foreach (string directory in directoryList) 
             { 
