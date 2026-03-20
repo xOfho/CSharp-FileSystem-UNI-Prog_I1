@@ -196,7 +196,7 @@ Y mostrara los directores:
 
 20. En caso de que no exista tal Ruta mandara un Mensaje que dirá que la Ruta no existe.
 
- ![noexiste](screenshots/no_existe.png) 
+ ![noexiste](screenshots/noexiste.png) 
 
 >  
 
