@@ -207,4 +207,5 @@ Y mostrara los directores:
 
 <a href="https://github.com/xOfho/CSharp-FileSystem-UNI-Prog_I1/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=xOfho/CSharp-FileSystem-UNI-Prog_I1" />
-</a>
+| <img src="https://github.com/ThePhilos.png" width="50px;"/>
+| <img src="https://github.com/maurijrbs.png" width="50px;"/> 
