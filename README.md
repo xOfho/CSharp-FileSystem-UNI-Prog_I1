@@ -204,3 +204,9 @@ Y mostrara los directores:
 1. Abrir la solución con **Visual Studio**.
 2. Asegurarse de tener instalado el SDK de .NET 6.0+.
 3. Presionar `CTRL + F5` para compilar y ejecutar.
+
+## 👥 Contribuidores
+
+<a href="https://github.com/xOfho/CSharp-FileSystem-UNI-Prog_I1/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=xOfho/CSharp-FileSystem-UNI-Prog_I1" />
+</a>
