@@ -1,20 +1,16 @@
 # CSharp-FileSystem-UNI-Prog_I #1
 Aplicación en C# (Windows Forms) que utiliza una arquitectura basada en interfaces para explorar directorios, verificar la existencia de archivos y leer su contenido de forma dinámica.
 
-```markdown
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=32CD32&center=true&vCenter=true&width=435&lines=Analizando+sistema+de+archivos...;Accediendo+a+IFileSystemRepository;Listando+directorios+de+la+UNI;Lectura+exitosa+de+datos" alt="Typing SVG" />
-</p>
 
 # FileTest - Explorador de Archivos y Directorios en C#
 
-Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows Forms (.NET 6.0)** que permite realizar operaciones comunes con el sistema de archivos. [cite_start]Utiliza una interfaz (`IFileSystemRepository`) para desacoplar la lógica de acceso a datos de la interfaz de usuario. [cite: 1, 3, 4]
+Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows Forms (.NET 6.0)** que permite realizar operaciones comunes con el sistema de archivos. Utiliza una interfaz (`IFileSystemRepository`) para desacoplar la lógica de acceso a datos de la interfaz de usuario. 
 
 ##  Funcionalidades
-* [cite_start]**Verificación de existencia**: Determina si una ruta ingresada corresponde a un archivo o directorio real. [cite: 41, 49]
-* [cite_start]**Información Detallada**: Muestra fechas de creación, última modificación y último acceso. [cite: 52, 53, 54]
-* [cite_start]**Lectura de Archivos**: Si la ruta es un archivo, muestra su contenido de texto. [cite: 66, 96]
-* [cite_start]**Exploración de Directorios**: Si la ruta es una carpeta, lista todos los subdirectorios contenidos. [cite: 45, 112]
+* **Verificación de existencia**: Determina si una ruta ingresada corresponde a un archivo o directorio real. 
+* **Información Detallada**: Muestra fechas de creación, última modificación y último acceso.
+* **Lectura de Archivos**: Si la ruta es un archivo, muestra su contenido de texto.
+* **Exploración de Directorios**: Si la ruta es una carpeta, lista todos los subdirectorios contenidos. 
 
 ## Tecnologías Utilizadas
 * **Lenguaje:** C#
