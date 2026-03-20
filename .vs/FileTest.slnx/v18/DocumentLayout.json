@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C4C3B9-0043-40F1-B8F7-84BE11A427B6}|FileTest\\FileTest.csproj|C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\filetest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C4C3B9-0043-40F1-B8F7-84BE11A427B6}|FileTest\\FileTest.csproj|solutionrelative:filetest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C4C3B9-0043-40F1-B8F7-84BE11A427B6}|FileTest\\FileTest.csproj|C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\filetest\\ifilesystemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C4C3B9-0043-40F1-B8F7-84BE11A427B6}|FileTest\\FileTest.csproj|solutionrelative:filetest\\ifilesystemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C4C3B9-0043-40F1-B8F7-84BE11A427B6}|FileTest\\FileTest.csproj|C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\filetest\\filesystemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C4C3B9-0043-40F1-B8F7-84BE11A427B6}|FileTest\\FileTest.csproj|solutionrelative:filetest\\filesystemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C4C3B9-0043-40F1-B8F7-84BE11A427B6}|FileTest\\FileTest.csproj|c:\\users\\ramzbg\\onedrive\\documentos\\progrmacion ll\\filetest\\filetest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C5C4C3B9-0043-40F1-B8F7-84BE11A427B6}|FileTest\\FileTest.csproj|solutionrelative:filetest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\FileTest\\Form1.cs",
+              "RelativeDocumentMoniker": "FileTest\\Form1.cs",
+              "ToolTip": "C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\FileTest\\Form1.cs",
+              "RelativeToolTip": "FileTest\\Form1.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T04:08:31.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileSystemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\FileTest\\FileSystemRepository.cs",
+              "RelativeDocumentMoniker": "FileTest\\FileSystemRepository.cs",
+              "ToolTip": "C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\FileTest\\FileSystemRepository.cs",
+              "RelativeToolTip": "FileTest\\FileSystemRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T04:07:30.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFileSystemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\FileTest\\IFileSystemRepository.cs",
+              "RelativeDocumentMoniker": "FileTest\\IFileSystemRepository.cs",
+              "ToolTip": "C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\FileTest\\IFileSystemRepository.cs",
+              "RelativeToolTip": "FileTest\\IFileSystemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T04:06:29.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\FileTest\\Form1.cs",
+              "RelativeDocumentMoniker": "FileTest\\Form1.cs",
+              "ToolTip": "C:\\Users\\RamzBG\\OneDrive\\Documentos\\progrmacion ll\\FileTest\\FileTest\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FileTest\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T04:02:14.093Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

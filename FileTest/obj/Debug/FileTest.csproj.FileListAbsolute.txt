@@ -1,0 +1,10 @@
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\bin\Debug\FileTest.exe.config
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\bin\Debug\FileTest.exe
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\bin\Debug\FileTest.pdb
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\obj\Debug\FileTest.csproj.AssemblyReference.cache
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\obj\Debug\FileTest.Form1.resources
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\obj\Debug\FileTest.Properties.Resources.resources
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\obj\Debug\FileTest.csproj.GenerateResource.cache
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\obj\Debug\FileTest.csproj.CoreCompileInputs.cache
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\obj\Debug\FileTest.exe
+C:\Users\RamzBG\OneDrive\Documentos\progrmacion ll\FileTest\FileTest\obj\Debug\FileTest.pdb
