@@ -23,7 +23,7 @@ Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows 
 3.  [cite_start]**Form1.cs**: Maneja la interacción del usuario, capturando eventos de teclado (`KeyDown`) para procesar las rutas ingresadas. [cite: 75, 81]
 
 ## Pasos con Capturas de Pantallas
-> *Aquí puedes insertar una de las imágenes de tu práctica para mostrar el programa funcionando.*
+> **
 
 1. Abrir Visual Studio 2022. 
 2. Crear nuevo proyecto Windows Forms App (.NET). 
