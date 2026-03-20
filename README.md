@@ -22,8 +22,14 @@ Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows 
 2.  [cite_start]**FileSystemRepository.cs**: Implementación concreta de la interfaz que gestiona la lógica del sistema de archivos. [cite: 32]
 3.  [cite_start]**Form1.cs**: Maneja la interacción del usuario, capturando eventos de teclado (`KeyDown`) para procesar las rutas ingresadas. [cite: 75, 81]
 
-## Captura de Pantalla
+## Pasos con Capturas de Pantallas
 > *Aquí puedes insertar una de las imágenes de tu práctica para mostrar el programa funcionando.*
+
+1. Abrir Visual Studio 2022. 
+2. Crear nuevo proyecto Windows Forms App (.NET). 
+2. Asegúrese de que el Framework seleccionado sea .NET 6.0 o superior. 
+![Inicio](screenshots/Inicio.png)
+> 
 
 ## Cómo ejecutarlo
 1. [cite_start]Abrir la solución con **Visual Studio 2022**. [cite: 2]
