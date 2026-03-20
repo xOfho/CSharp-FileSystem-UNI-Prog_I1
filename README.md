@@ -51,8 +51,6 @@ Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows 
 
 13. A esa clase le ponemos el nombre
 
-### 🛠️ Implementación de la Lógica
-
 ```csharp
 namespace FileTest 
 
@@ -66,7 +64,148 @@ namespace FileTest
     } 
 } 
 
-> 
+```
+![codigo](screenshots/codigo.png)
+
+14. Luego creamos la Clase Principal, haciendo el mismo procedimiento y le ponemos a la clase el nombre de (FileSystemRepository.cs) 
+
+![Agregar clase](screenshots/agregarclase.png)
+
+15. Luego a Esa clase le ponemos el siguiente codigo:
+
+```csharp
+using System; 
+using System.IO; 
+namespace FileTest 
+
+{ 
+    public class FileSystemRepository: IFileSystemRepository 
+    { 
+        private string _path; 
+        public FileSystemRepository (string path) 
+        { 
+            _path = path; 
+        } 
+        public bool FileExists () 
+        { 
+            return File.Exists(_path); 
+        } 
+        public string [] GetDirectories () 
+        { 
+            return Directory. GetDirectories(_path); 
+        }
+        public string GetFileInformation () 
+        { 
+            if (File.Exists(_path) || Directory. Exists(_path)) 
+            { 
+string info = $"{_path} existe\n"; 
+                info += $"Creación: {File.GetCreationTime(_path)}\n"; 
+                info += $"Última modificación: {File.GetLastWriteTime(_path)} \n"; 
+                info += $"Último acceso: {File.GetLastAccessTime(_path)} \n"; 
+                return info; 
+            } 
+            else 
+            { 
+                return null; 
+            } 
+        } 
+        public string ReadFile () 
+        {
+            try 
+            { 
+                return File.ReadAllText(_path); 
+            } 
+            catch (IOException) 
+            { 
+                return null; 
+            } 
+        } 
+    } 
+} 
+
+ ```
+17. Luego se creará un método así:
+
+```csharp
+private void inputTextBox KeyDown(object sender, KeyEventArgs e) 
+{ 
+} 
+```
+18. Luego copiamos el siguiente Código: 
+
+```csharp
+if (e. Keycode == Keys. Enter) 
+{
+    string fileName = inputTextBox. Text; 
+    IFileSystemRepository repository = 
+        new FileSystemRepository(fileName);  
+    string info = repository. GetFileInformation (); 
+    outputTextBox.Clear();
+    if (info! = null) 
+    { 
+        outputTextBox.AppendText(info); 
+        if (repository. FileExists ()) 
+        { 
+            string content = repository. ReadFile (); 
+            if (content! = null) 
+            { 
+                outputTextBox.AppendText(content); 
+            } 
+            else 
+            { 
+                MessageBox.Show("Error al leer el archivo", 
+                "Error de archivo", 
+                MessageBoxButtons.OK, 
+                MessageBoxIcon.Error); 
+            } 
+        } 
+        else 
+        { 
+    string [] directoryList = repository. GetDirectories (); 
+            outputTextBox.AppendText("Contenido del directorio:\n"); 
+            foreach (string directory in directoryList) 
+            { 
+                outputTextBox.AppendText($"{directory}\n"); 
+            } 
+        } 
+    } 
+    else 
+    { 
+        MessageBox.Show($"{inputTextBox.Text} no existe", 
+        "Error de archivo", 
+        MessageBoxButtons.OK, 
+        MessageBoxIcon.Error); 
+    } 
+} 
+
+ ```
+![codigo2](screenshots/codigo2.png)
+
+19. Se ejecuta el programa (CTRL + F5),
+20. 
+21. Prueba del programa 
+Se escribe el nombre de una carpeta ejemplo C: User\ 
+Y mostrara los directores: 
+*Creación 
+*Última modificación 
+*Último acceso 
+*Contenido del archivo 
+ 
+![carpeta](screenshots/carpeta.png)
+
+20. En caso de que no exista tal Ruta mandara un Mensaje que dirá que la Ruta no existe.
+
+ ![noexiste](screenshots/noexiste.png)
+
+ 
+
+ 
+
+ 
+
+ 
+
+>  
 
 ## Cómo ejecutarlo
 1. [cite_start]Abrir la solución con **Visual Studio 2022**. [cite: 2]
