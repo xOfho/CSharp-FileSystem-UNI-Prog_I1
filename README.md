@@ -1,7 +1,5 @@
-# CSharp-FileSystem-UNI-Prog_I #1
-Aplicación en C# (Windows Forms) que utiliza una arquitectura basada en interfaces para explorar directorios, verificar la existencia de archivos y leer su contenido de forma dinámica.
-
-
+# CSharp-FileSystem-UNI-Prog_I #1 
+[![My Skills](https://skillicons.dev/icons?i=cs)](https://skillicons.dev)
 # FileTest - Explorador de Archivos y Directorios en C#
 
 Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows Forms (.NET 6.0)** que permite realizar operaciones comunes con el sistema de archivos. Utiliza una interfaz (`IFileSystemRepository`) para desacoplar la lógica de acceso a datos de la interfaz de usuario. 
