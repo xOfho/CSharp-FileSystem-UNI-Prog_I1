@@ -5,7 +5,7 @@ Aplicación en C# (Windows Forms) que utiliza una arquitectura basada en interfa
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=32CD32&center=true&vCenter=true&width=435&lines=Analizando+sistema+de+archivos...;Accediendo+a+IFileSystemRepository;Listando+directorios+de+la+UNI;Lectura+exitosa+de+datos" alt="Typing SVG" />
 </p>
-```
+
 # FileTest - Explorador de Archivos y Directorios en C#
 
 Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows Forms (.NET 6.0)** que permite realizar operaciones comunes con el sistema de archivos. [cite_start]Utiliza una interfaz (`IFileSystemRepository`) para desacoplar la lógica de acceso a datos de la interfaz de usuario. [cite: 1, 3, 4]
