@@ -23,19 +23,24 @@ Este proyecto es una aplicación de escritorio desarrollada en **C# con Windows 
 3.  [cite_start]**Form1.cs**: Maneja la interacción del usuario, capturando eventos de teclado (`KeyDown`) para procesar las rutas ingresadas. [cite: 75, 81]
 
 ## Pasos con Capturas de Pantallas
-> **
+> *Pasos a seguir:*
 
 1. Abrir Visual Studio 2022. 
 2. Crear nuevo proyecto Windows Forms App (.NET). 
 2. Asegúrese de que el Framework seleccionado sea .NET 6.0 o superior. 
+
 ![Inicio](screenshots/Inicio.png)
+
 4.En la solución, agregue una nueva interfaz llamada IFileSystemRepository.cs 
 5.Cree una nueva clase llamada FileSystemRepository.cs. 
 6. Crear la interfaz (Formulario)
+
 ![Interfaz](screenshots/interfaz.png)
+
 7. Luego en el Formulario se agrega un Label que es para mostrar texto informativo, Nos vamos a sus propiedades y en la parte de Apariencia, Buscamos donde dice text y cambiamos el nombre (ya sea uno que le quiera poner el Usuario) 
 8. Y también 2 TextBox, 1 TextBox (para escribir la ruta), 1 TextBox grande (para mostrar resultados). 
 9. Luego hacemos click a un TextBox y Buscamos en propiedades, en la parte del diseño, donde dice (name).
+
 ![Cambio de nombre](screenshots/cambiodenombre.png)
 > 
 
